@@ -27,8 +27,8 @@ filegroup(
 
 exports_files(["refresh.template.py", "check_python_version.template.py"])  # For implicit use by the refresh_compile_commands macro, not direct use.
 
-cc_binary(
-    name = "print_args",
-    srcs = ["print_args.c"],
-    visibility = ["//visibility:public"],
-)
+# cc_binary(
+#     name = "print_args",
+#     srcs = ["print_args.c"],
+#     visibility = ["//visibility:public"],
+# )
